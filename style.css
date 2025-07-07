@@ -1,0 +1,27 @@
+body{
+    background-color: #8668a2;
+}
+p{
+    padding: 5px;
+}
+h1{
+    padding: 5px;
+    text-align: center;
+}
+.divSection{
+    background-color: #b28bd6;
+    border-radius: 8px;
+    width: fit-content;
+}
+.divSection p{
+    border-radius: 0 0 8px 8px;
+    background-color: #a07dc1;
+}
+
+.hide {
+    display: none;
+}
+
+/* .divSection p.hide{
+    display: none
+} */
