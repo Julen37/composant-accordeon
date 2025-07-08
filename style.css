@@ -11,17 +11,17 @@ h1{
 .divSection{
     background-color: #b28bd6;
     border-radius: 8px;
-    width: fit-content;
+    width: 50%;
 }
 .divSection p{
     border-radius: 0 0 8px 8px;
     background-color: #a07dc1;
 }
 
-.hide {
+/* pour que l'accordeon fonctionne*/
+.content{
     display: none;
 }
-
-/* .divSection p.hide{
-    display: none
-} */
+.content.active { 
+    display: block;
+}

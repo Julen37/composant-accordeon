@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="acordeonSection">
+    <section class="accordionSection" >
         <div class="divSection">
             <h1 class="title">Titre 1</h1>
             <p class="content ">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
@@ -21,20 +21,6 @@
             <p class="content ">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
         </div>
     </section>
-    <!-- <script> // fonctionne code mixé avec le mien et perplexity
-        // mais est deja affiché des le depart alors que je veux que ce soit caché dabord
-        var titles = document.getElementsByClassName('title');
-        for (let i = 0; i < titles.length ; i++){
-            titles[i].onclick = function() {
-                var contents = this.nextElementSibling; // c'est ca qui fait que ca fonctionne
-                if (contents.classList.contains("hide")) {
-                    contents.classList.remove("hide");
-                } else {
-                    contents.classList.add("hide");
-                }
-            }
-        }
-    </script> -->
 </body>
-<script url="index.js"></script>
+<script src="index.js"></script>
 </html>
